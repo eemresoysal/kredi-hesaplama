@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./Assets/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="./Assets/bootstrap.min.js"> -->
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header  mt-4">
+            <h2 class="text-warning">Kredi Hesaplama Aracı</h2>
+
+            <label for="" class="form-label">Kredi:</label>
+            <select class="form-select" aria-label="Default select example" id="kredi">
+                <option>Konut Kredisi</option>
+                <option>İhtiyaç Kredisi</option>
+                <option>Araç Kredisi</option>
+            </select>
+            <div class="mb-3">
+                <label for="vade" class="form-label mt-4">Vade:</label>
+                <input type="number" class="form-control" id="vade">
+
+            </div>
+            <div class="mb-3">
+                <label for="" class="form-label">Tutar:</label>
+                <input type="number" class="form-control" id="tutar">
+            </div>
+            <div class="button">
+                <button type="submit" class="btn btn-secondary">Hesapla</button>
+            </div>
+
+
+        </div>
+        <div>
+
+            <table class="table table-bordered table-dark border-danger mt-3"></table>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

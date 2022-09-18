@@ -1,0 +1,16 @@
+.button {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+
+}
+
+.button .btn {
+    width: 100%;
+}
+
+.row .col {
+    border: 1px solid red;
+    padding: 1rem;
+
+}
